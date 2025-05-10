@@ -5,8 +5,8 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 // Setting Up Environmemt Globally
-const dotenv = require('dotenv');
-dotenv.config({ path: path.join(__dirname, 'env', '.env') });
+// const dotenv = require('dotenv');
+// dotenv.config();
 
 const indexRouter = require('./routes/index.routes');
 const authRouter = require('./routes/auth.routes');
